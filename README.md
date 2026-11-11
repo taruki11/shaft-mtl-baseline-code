@@ -1,17 +1,12 @@
-# 轴系复合故障多模态多任务学习（源码版）
+# Multimodal Multi-Task Shaft Fault Learning (Code Snapshot)
 
-此代码快照包含轴系故障识别的模型、数据读取接口、训练与评估入口。根据项目当前维护记录，FreqToken Transformer v4 是当前主线；TCN 是历史对照，不应视为最新主线。
+This source snapshot contains models, data-loading interfaces, and training/evaluation entrypoints for compound shaft-fault recognition. `FreqToken Transformer v4` is the mainline architecture; `TCN` is kept as a historical baseline.
 
-## 发布范围
+## Release Scope
 
-不包含原始波形、数据切分、标签表、模型权重、实验输出或内部研究报告。使用者需自行准备有权使用的数据，并核验本地配置。
+Raw waveforms, data splits, label tables, model weights, experiment outputs, and internal reports are excluded. Prepare authorized local data and configure `requirements.txt` before running training or evaluation scripts, reporting the dataset version, speed split, and metric granularity with any results.
 
-## 复现
+## Language & License
 
-安装 `requirements.txt`，先检查训练与评估脚本的参数，再按自己的数据布局运行。结果应注明数据版本、转速划分和评估粒度。
-
-## 许可
-
-尚未选择开源许可证。公开可见不代表授予使用许可；复用前请联系版权所有者，并确认工业数据及依赖的使用条款。
-
-English: [README.en.md](README.en.md)
+- 中文说明：[README.zh-CN.md](README.zh-CN.md)
+- Released for reading and reference only; no open-source redistribution license is granted for code or industrial data.
